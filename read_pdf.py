@@ -10,7 +10,7 @@ def extract_text_from_pdf(pdf_path):
             text += page.extract_text()
     return text
 
-pinecone.init(api_key='YOUR_API_KEY')
+pinecone.init(api_key='0c6a9a3f-6bef-4e4b-bba5-860615e77a4a')
 
 index_name = 'pdf_embeddings'
 if index_name not in pinecone.list_indexes():
